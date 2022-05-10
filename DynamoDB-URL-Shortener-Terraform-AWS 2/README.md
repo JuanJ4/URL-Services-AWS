@@ -26,3 +26,5 @@ curl -X POST https://${url}/ --header 'content-type:application/json' --data '{ 
 ```
 
 Now, open `https://${url}/google`
+
+ Invoke URL: https://0w47m147uf.execute-api.us-east-1.amazonaws.com/test
