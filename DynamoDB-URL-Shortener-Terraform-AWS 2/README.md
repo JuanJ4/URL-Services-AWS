@@ -12,6 +12,8 @@ Creates a url shortener using only ApiGateway and Dynamodb
 ```
 provider "aws" {
   region = "us-east1"
+   secretkey = ""
+   accesskey = ""
 }
 
 module "url-shortener" {
@@ -30,4 +32,5 @@ curl -X POST https://${url}/ --header 'content-type:application/json' --data '{ 
 
 Now, open `https://${url}/google`
 
- Invoke URL: https://0w47m147uf.execute-api.us-east-1.amazonaws.com/test
+
+Invoke URL: https://71pdsvgoq4.execute-api.us-east-1.amazonaws.com/url-shortener
