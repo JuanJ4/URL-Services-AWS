@@ -7,6 +7,9 @@ Creates a url shortener using only ApiGateway and Dynamodb
 ![URL_Shorten_Service](https://user-images.githubusercontent.com/23548321/167586434-ea174339-f457-4a73-a127-2f8bbe165538.jpeg)
 
 
+![Amazon APIGateway Dashboard - JuanJ](https://user-images.githubusercontent.com/23548321/167808754-8808bbe7-c759-4db6-a87b-585dbd8c7a41.png)
+
+
 
 ## Usage
 ```
