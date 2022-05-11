@@ -1,4 +1,4 @@
-# terraform-aws-url-shortener
+# DynamoDB-URL-Shortener-Terraform-AWS
 
 Terraform module for a AWS URL shortener
 
