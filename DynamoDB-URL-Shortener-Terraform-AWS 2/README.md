@@ -30,10 +30,15 @@ module "url-shortener" {
 ```
 
 ```
-curl -X POST https://${url}/ --header 'content-type:application/json' --data '{ "id": "google", "url": "https://google.com" }'
+curl -X POST https://{awsinvokedURL} --header 'content-type:application/json' --data '{ "id": "tweets", "url": "https://twitter.com" }'
 ```
 
-Now, open `https://${url}/google`
+Now, open Invoke URL: `https://46yw59620f.execute-api.us-east-1.amazonaws.com/test/{idyoucreated}`
+
+You should see your below url shortener ID and the URL inside DynamoDB
 
 
-Invoke URL: https://71pdsvgoq4.execute-api.us-east-1.amazonaws.com/url-shortener
+![DynamoDB- URLs](https://user-images.githubusercontent.com/23548321/169397453-6cbffd51-d866-429c-adcc-7cfea2b62c15.png)
+
+
+
